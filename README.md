@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Eclipse Wallet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eclipse wallet is a hobby project created by Fabrique.
+The wallet allows CRUD access to the Counterparty database, as well as providing Bitcoin transaction functionality.
 
-## Available Scripts
+## Get started
 
-In the project directory, you can run:
+The app is under review at the Google store but will be available soon.
 
-### `npm start`
+If you would like to use the wallet in the meantine, the app can be downloaded in the above ["Eclipse.zip"](https://github.com/Hakkonen/Eclipse/blob/main/Eclipse.zip) file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### AES Secured Wallet
 
-### `npm test`
+Your wallet data and seed phrase is secured locally using AES encryption.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![login page](https://i.imgur.com/tDUcuOF.png)
 
-### `npm run build`
+#### Simple User Interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Eclipse provides the information you need in a simple and concise brief.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![main page](https://i.imgur.com/CmGhU0N.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Counterparty DNS Sends
 
-### `npm run eject`
+You can send assets to Counterparty DNS addresses.
+This works by assessing the current owner of the targeted asset and directing the send to the asset owner's current address.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![send example](https://i.imgur.com/XiMhsQo.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Hierarchical Deterministic Wallet
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Eclipse allows you to create additional wallets that derive from your master key, as well as import addresses using the WIF format.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![wallet list](https://i.imgur.com/jpNjVdR.png)
