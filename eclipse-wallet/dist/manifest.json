@@ -1,0 +1,33 @@
+{
+  "short_name": "Eclipse Wallet",
+  "name": "Eclipse Wallet",
+  "description": "An in-development wallet for the Counterparty blockchain.",
+  "version": "0.6",
+  "manifest_version": 3,
+  "permissions": [
+      "storage",
+      "cookies"
+  ],
+  "background": {
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Eclipse",
+    "default_icon": {
+      "16": "./eclipse-logo-l-s.png",
+      "32": "./eclipse-logo-l-s.png",
+      "48": "./eclipse-logo-l-s.png",
+      "128": "./eclipse-logo-l-s.png" 
+    }
+  },
+  "icons": {
+      "16": "./eclipse-logo-l-s.png",
+      "32": "./eclipse-logo-l-s.png",
+      "48": "./eclipse-logo-l-s.png",
+      "128": "./eclipse-logo-l-s.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'" 
+  }
+}
