@@ -3,6 +3,8 @@
 Eclipse wallet is a hobby project created by Fabrique.
 The wallet allows CRUD access to the Counterparty database, as well as providing Bitcoin transaction functionality.
 
+Note: this wallet is currently under beta testing.
+
 ## Get started
 
 The app is under review at the Google store but will be available soon.
